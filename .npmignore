@@ -1,0 +1,8 @@
+.*
+*.log
+
+node_modules
+src
+index.html
+index.js
+webpack.config.js
