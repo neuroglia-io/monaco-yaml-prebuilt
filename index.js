@@ -41,7 +41,7 @@ const diagnosticsOptions = {
   ],
 };
 
-monacoYaml.setDiagnosticsOptions(diagnosticsOptions);
+monacoYaml.configureMonacoYaml(monaco, diagnosticsOptions);
 monaco.languages.json.jsonDefaults.setDiagnosticsOptions(diagnosticsOptions);
 
 const yaml = 'p1: \np2: \n';

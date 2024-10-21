@@ -1,4 +1,5 @@
 import MonacoWebpackPlugin from 'monaco-editor-webpack-plugin';
+import path from 'path';
 
 export default {
   entry: {
@@ -12,7 +13,7 @@ export default {
       },
       {
         test: /\.ttf$/,
-        type: 'asset',
+				type: 'asset/resource',
       }
     ],
   },
